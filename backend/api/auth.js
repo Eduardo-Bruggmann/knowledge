@@ -52,7 +52,6 @@ module.exports = app => {
             }
         } catch (e) {
             // Problema com o token
-            // Criar validação para Admin
         }
 
         res.send(false)
