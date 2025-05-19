@@ -52,6 +52,10 @@ module.exports = app => {
             }
         } catch (e) {
             // Problema com o token
+<<<<<<< HEAD
+=======
+            // Criar validação para Admin
+>>>>>>> 59f6776 (Initial commit)
         }
 
         res.send(false)
